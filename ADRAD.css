@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding:0 ;
+    background-size: 100%;
+    animation-name: adrad;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+    background-repeat: no-repeat;
+}
+nav{
+    height: 5rem;
+    background-color: white;
+    animation-name: kogbe;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    /* border-radius: 8rem; */
+    text-align: center;
+}
+@keyframes kogbe {
+    0%{
+        background-color: skyblue;
+    }
+    10%{
+        background-color: black;
+    }
+    20%{
+        background-color: white;
+    }
+    30%{
+        background-color: grey
+    }
+    40%{
+        background-color: silver;
+    }
+    50%{
+        background-color: green;
+    }
+  
+}
+.why{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 1.3rem;
+    font-size: 2rem;
+    color: green;
+    justify-content: center;
+
+}
+p{
+    color: red;
+}
+body:hover{
+    background-image: url(./c19314c1-d4fd-4f98-8c65-1b012c5cf537.jpg);
+}
+
+
+@keyframes adrad {
+    0%{
+        background-image: url(./36875960_203234487185518_9067154842119569408_n.jpg);
+    }
+    10%{
+      background-image: url(./487894da-9e1e-4b0d-bdf8-7739bc936aee.jpg);
+    }
+    20%{
+        background-image: url(./2f1d0e1a-f8d0-4834-b1ca-6730d20139fe.jpg);
+    }
+    30%{
+       background-image: url(./300435055_399390838969901_7870788501998160041_n.jpg);
+    }
+    40%{
+        background-image: url(./5079be99-2b07-4488-baa2-fb2b4bc0202f.jpg);
+    }
+    50%{
+        background-image: url(./5b8e5214-3c3d-4452-854a-884f7d689edc.jpg);
+    }
+  
+}

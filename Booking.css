@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding:0 ;
+    background-size: 100%;
+ 
+    /* background-image: url(./300435055_399390838969901_7870788501998160041_n.jpg); */
+    background-repeat: no-repeat;
+}
+nav{
+    height: 5rem;
+    background-color: white;
+    animation-name: idunnu;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    /* border-radius: 8rem; */
+    text-align: center;
+}
+@keyframes idunnu {
+    /* 0%{
+        background-color: skyblue;
+    } */
+    10%{
+        background-color: black;
+    }
+    /* 20%{
+        background-color: white;
+    } */
+    /* 30%{
+        background-color: grey
+    } */
+    40%{
+        background-color: dodgerblue;
+    }
+    50%{
+        background-color: seagreen;
+    }
+  
+}
+.why{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 1.3rem;
+    font-size: 2rem;
+    justify-content: center;
+
+}
+p:hover{
+    color: red;
+}
